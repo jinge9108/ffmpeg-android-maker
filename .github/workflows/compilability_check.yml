@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-24.04
     strategy:
       matrix:
-        abi: [ "armeabi-v7a", "arm64-v8a", "x86", "x86_64" ]
+        abi: [ "arm64-v8a" ]
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
